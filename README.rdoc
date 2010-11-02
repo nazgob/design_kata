@@ -17,6 +17,4 @@ one pattern, one file, one diagram, no hassle.
 
 === Author
 
-Author:: {Przemek Owczarek}[mailto:nazgob@gmail.com]
-
 Copyright (c) 2010 {Przemek Owczarek}[twitter.com/powczarek], released under the MIT license
