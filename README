@@ -1,0 +1,10 @@
+a code kata is an exercise in programming which helps hone your skills through practice and repetition.
+code kata is a term coined by Dave Thomas, co-author of the book The Pragmatic Programmer.
+
+every few days, before lunch at work, me and my teammates are going though one of Gang of Four design pattern (just 15 minutes), later on, i'm coding it in c++ for practice.
+
+code is compiling cleanly under g++ and clang++ with -Wall -pedantic.
+tested on MacOs 10.6, no animals were harmed; one cat was harassing me.
+
+rules: one pattern, one file, one diagram, no hassle.
+
