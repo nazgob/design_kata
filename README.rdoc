@@ -16,7 +16,7 @@ tested on MacOs 10.6, no animals were harmed; one cat was harassing me.
 one pattern, one file, one diagram, no hassle.
 
 === yUML
-[Abstract Factory](http://yuml.me/diagram/class/[Button%7C+Draw()=0],%20[Button%7C+Draw()=0]-%3E[MacButton],%20[Button%7C+Draw()=0]-%3E[WinButton],%20[GUIFactory%7C+getButton()=0],%20[GUIFactory%7C+getButton()=0]-%3E[MacGUIFactory],%20[GUIFactory%7C+getButton()=0]-%3E[WinGUIFactory],%20[Context]uses%20-.-%3E[Button%7C+Draw()=0],%20[Context]uses%20-.-%3E[GUIFactory%7C+getButton()=0])
+[AbstractFactory](http://yuml.me/diagram/class/[Button%7C+Draw()=0],%20[Button%7C+Draw()=0]-%3E[MacButton],%20[Button%7C+Draw()=0]-%3E[WinButton],%20[GUIFactory%7C+getButton()=0],%20[GUIFactory%7C+getButton()=0]-%3E[MacGUIFactory],%20[GUIFactory%7C+getButton()=0]-%3E[WinGUIFactory],%20[Context]uses%20-.-%3E[Button%7C+Draw()=0],%20[Context]uses%20-.-%3E[GUIFactory%7C+getButton()=0])
 
 === Author
 
