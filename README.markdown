@@ -1,23 +1,32 @@
-= Design Patterns Kata
+Design Patterns Kata
+====================
 
 a code kata is an exercise in programming which helps hone your skills through practice and repetition.
 code kata is a term coined by Dave Thomas, co-author of the book The Pragmatic Programmer.
 
-=== How I do it?
+How I do it?
+------------
 
 every few days, before lunch at work, me and my teammates are going though one of Gang of Four design pattern (just 15 minutes), later on, i'm coding it in c++ for practice.
 
-=== Compiling
+Compiling
+---------
 
 code is compiling cleanly under g++ and clang++ with -Wall -pedantic.
 tested on MacOs 10.6, no animals were harmed; one cat was harassing me.
 
-=== Rules
+Rules
+-----
+
 one pattern, one file, one diagram, no hassle.
 
-=== yUML
-<img src="http://yuml.me/diagram/class/[Button%7C+Draw()=0],%20[Button%7C+Draw()=0]-%3E[MacButton],%20[Button%7C+Draw()=0]-%3E[WinButton],%20[GUIFactory%7C+getButton()=0],%20[GUIFactory%7C+getButton()=0]-%3E[MacGUIFactory],%20[GUIFactory%7C+getButton()=0]-%3E[WinGUIFactory],%20[Context]uses%20-.-%3E[Button%7C+Draw()=0],%20[Context]uses%20-.-%3E[GUIFactory%7C+getButton()=0]"/>
+yUML diagrams
+-------------
 
-=== Author
+[1. Abstract Factory](http://goo.gl/1vtBL)
+
+Author
+-----
 
 Copyright (c) 2010 {Przemek Owczarek}[twitter.com/powczarek], released under the MIT license
+
