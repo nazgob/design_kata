@@ -21,6 +21,5 @@ yUML diagrams
 [1. Abstract Factory](http://goo.gl/1vtBL)
 
 Author
------
-Copyright (c) 2010 {Przemek Owczarek}[twitter.com/powczarek], released under the MIT license
-
+------
+Copyright (c) 2010 [Przemek Owczarek](http://twitter.com/powczarek), released under the MIT license
