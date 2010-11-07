@@ -11,9 +11,10 @@ class MessageAssembler
     virtual void createBody() = 0;
     virtual void createFooter() = 0;
 
+    void putMessage(const std::string& msg) {mMesssage.push_back(msg);}
     const std::vector<std::string>& getMessage() const {return mMesssage;}
 
-  protected:
+  private:
     std::vector<std::string> mMesssage;
 };
 
@@ -22,17 +23,17 @@ class XmlMessageAssembler : public MessageAssembler
   public:
     virtual void createHeader()
     {
-      mMesssage.push_back(std::string("<header>foobar_header</header>"));
+      putMessage("<header>foobar_header</header>");
     }
     virtual void createBody()
     {
-      mMesssage.push_back(std::string("<body>foo</body>"));
-      mMesssage.push_back(std::string("<body>bar</body>"));
-      mMesssage.push_back(std::string("<body>foobar</body>"));
+      putMessage("<body>foo</body>");
+      putMessage("<body>bar</body>");
+      putMessage("<body>foobar</body>");
     }
     virtual void createFooter()
     { 
-      mMesssage.push_back(std::string("<footer>foobar_footer</footer>"));
+      putMessage("<footer>foobar_footer</footer>");
     }
 };
 
@@ -41,17 +42,17 @@ class TxtMessageAssembler : public MessageAssembler
   public:
     virtual void createHeader()
     {
-      mMesssage.push_back(std::string("foobar_header"));
+      putMessage("foobar_header");
     }
     virtual void createBody()
     {
-      mMesssage.push_back(std::string("foo"));
-      mMesssage.push_back(std::string("bar"));
-      mMesssage.push_back(std::string("foobar"));
+      putMessage("foo");
+      putMessage("bar");
+      putMessage("foobar");
     }
     virtual void createFooter()
     { 
-      mMesssage.push_back(std::string("foobar_footer"));
+      putMessage("foobar_footer");
     }
 };
 
