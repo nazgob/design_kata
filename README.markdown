@@ -14,11 +14,7 @@ tested on MacOs 10.6, no animals were harmed; one cat was harassing me.
 
 Rules
 -----
-one pattern, one file, one diagram, no hassle.
-
-yUML diagrams
--------------
-[1. Abstract Factory](http://yuml.me/7f1712b7)
+one pattern, one file, no hassle.
 
 Author
 ------
