@@ -1,5 +1,8 @@
 #include <iostream>
 
+// Provide an interface for creating famiilies of related
+// or dependend objects witout specifying their concrete classes.
+
 class Button
 {
   public:

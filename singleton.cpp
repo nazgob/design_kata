@@ -1,5 +1,8 @@
 #include <iostream>
 
+// Ensure a class only has one instance, and provide a global point of access
+// to it.
+
 // few things to remeber:
 // 1. singleton is just an enchanted global
 // 2. some people regard it as an antipattern

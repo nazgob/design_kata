@@ -1,5 +1,9 @@
 #include <iostream>
 
+// Define an interface for creating an object, but let subclasses decide which
+// class to instantiate. Factory Method lets a class defer intantiation to
+// subclasses.
+
 class Product
 {
   public:

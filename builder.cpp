@@ -4,6 +4,9 @@
 #include <string>
 #include <algorithm>
 
+// Separate the constructon of a complex object from its representation so that
+// the same construction process can create different representations.
+
 class MessageAssembler
 {
   public:
