@@ -3,7 +3,7 @@
 // Ensure a class only has one instance, and provide a global point of access
 // to it.
 
-// few things to remeber:
+// few things to remember:
 // 1. singleton is just an enchanted global
 // 2. some people regard it as an antipattern
 // 3. it's pain when you need it tread safe (impossible)
